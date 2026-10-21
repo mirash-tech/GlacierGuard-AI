@@ -1,0 +1,14 @@
+Metric,Pixels,Area_km2
+Shared valid footprint,558610,55.85644566896292
+"Raw candidate water, August",647,0.06469472502787098
+"Raw candidate water, October",234,0.023398092204825055
+"Raw water & snow overlap, August",380,0.03799690187108342
+"Raw water & snow overlap, October",234,0.023398092204825055
+"Refined candidate water, August",267,0.02669782315678756
+"Refined candidate water, October",0,0.0
+"Candidate snow/ice, August",219035,21.90171421403357
+"Candidate snow/ice, October",499070,49.902931096846324
+Raw candidate new water,25,0.0024997961757291724
+Raw candidate lost water,438,0.0437964289987751
+Candidate new snow/ice,284360,28.4336816212139
+Candidate lost snow/ice,4325,0.43246473840114685

@@ -1,0 +1,29 @@
+{
+  "project": "GlacierGuard AI \u2014 exploratory satellite analysis",
+  "source": "Copernicus Browser Sentinel-2 Level-2A exports (user-provided)",
+  "before_date": "2026-08-12",
+  "after_date": "2026-10-13",
+  "bands": [
+    "B03",
+    "B04",
+    "B08",
+    "B11"
+  ],
+  "reference_crs": "EPSG:32645",
+  "after_source_crs": "EPSG:4326",
+  "after_bounds_lonlat": [
+    85.63473701477051,
+    28.293422633156673,
+    85.72794914245605,
+    28.34857928179162
+  ],
+  "overlap_pixels": 558610,
+  "overlap_reference_percent": 25.4092,
+  "cloud_mask_applied": false,
+  "independent_ground_truth": false,
+  "ml_type": "unsupervised MiniBatchKMeans",
+  "ml_clusters": 4,
+  "ml_internal_silhouette": 0.4095,
+  "ml_accuracy": null,
+  "scientific_validation": "preliminary / unvalidated"
+}

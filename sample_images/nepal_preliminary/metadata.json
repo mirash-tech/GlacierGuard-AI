@@ -1,0 +1,39 @@
+{
+  "before_date": "2026-08-12",
+  "after_date": "2026-10-13",
+  "source": "User-provided Sentinel-2 L2A GeoTIFF band archives; full product identifiers and cloud metadata not supplied",
+  "region": "Langtang, Nepal (as labelled in source archives)",
+  "bands_used": [
+    "B03",
+    "B04",
+    "B08",
+    "B11"
+  ],
+  "composite": "False color RGB = Sentinel-2 B08 (NIR), B04 (red), B03 (green)",
+  "method": "Reproject later image to before EPSG:32645 grid; bilinear interpolation; crop bounding rectangle of overlapping valid pixels; NDWI=(B03-B08)/(B03+B08); NDSI=(B03-B11)/(B03+B11); exploratory thresholds 0.3 and 0.4",
+  "not_a_trained_model": true,
+  "reference_crs": "EPSG:32645",
+  "pixel_area_m2": 99.99184702916689,
+  "reference_grid_shape": [
+    1202,
+    1829
+  ],
+  "overlap_fraction_of_full_before_grid": 0.25409,
+  "cropped_grid_shape": [
+    621,
+    921
+  ],
+  "overlap_valid_pixels": 558610,
+  "new_water_candidate_pixels": 25,
+  "lost_water_candidate_pixels": 438,
+  "new_snow_candidate_pixels": 284360,
+  "lost_snow_candidate_pixels": 4325,
+  "limitations": [
+    "Raw satellite reflectance and exported image dates not independently verified",
+    "Missing cloud/shadow screening",
+    "Different image acquisitions and possible seasonal differences",
+    "Preliminary spectral thresholds not ground-truth validated",
+    "No trained machine learning or flood risk prediction",
+    "Before true-color GeoTIFF failed a full read in current runtime; false color reconstructed from valid spectral bands"
+  ]
+}
